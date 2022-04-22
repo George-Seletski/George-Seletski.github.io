@@ -1,0 +1,3 @@
+index.html <-> style-index.css
+resume.html <-> style-resume.css
+projects.html <-> projects-index.css
