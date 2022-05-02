@@ -66,6 +66,9 @@ a{
     padding-top: 3.25em;
     padding-bottom: 0em;
 }
+link.icon-title{
+    width: 128px;
+}
 .column-logo{
     font-size: 150%;
 }
