@@ -40,6 +40,8 @@ html{
 body{
     font-family: Roboto, sans-serif;
     display: block;
+    background-color: #171717;
+    color: #fff;
 }
 
 h1{
@@ -51,10 +53,7 @@ a{
     color: #fff;
 }
 
-.background-dark{
-    background-color: #171717;
-    color: #fff;
-}
+
 .wrapper{
   margin: 0px auto;
   padding-right:400px;
