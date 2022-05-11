@@ -42,6 +42,8 @@ body{
     font-family: Roboto, sans-serif;
     background-color: #171717;
     color: #fff;
+    font-size: 100%;
+    line-height: 1.625em;
 }
 
 h1{
@@ -55,12 +57,19 @@ a{
 /*---main---*/
 
 .wrapper{
-  margin: 0px auto;
-  padding-right:400px;
-  padding-left: 400px;
-  display: block;
+    display: block;
+    width: 1170px;
+    max-width: 100%;
+    min-height: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0em;
+    padding-bottom: 0em;
 }
-
+header{
+    opacity: 1; 
+    transition: opacity 500ms ease 0s;
+}
 .header {
     margin-bottom: 5.1em;
     padding-top: 3.25em;
@@ -69,14 +78,28 @@ a{
 link.icon-title{
     width: 128px;
 }
+/*--------------------logo-------------------*/
 .column-logo{
     display: block;
     font-size: 150%;
     max-width: 100%;
 }
+
+.column {
+    padding-right: 1.625em;
+    padding-left: 1.625em;
+}
+
+.w-col-6 {
+    width: 50%;
+}
+
+
+/*--------------------logo-------------------*/
 .column-email{
     display: block;
     text-align: right;
+    font-size: 150%;
     max-width: 100%;
 }
 
@@ -173,3 +196,78 @@ li:hover{
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
   }
+
+  /*------media-querries-------*/
+  @media (max-width: 991px) {
+    body {
+        font-size: 87.5%;
+    }
+
+    .wrapper {
+        width: 48em;
+    }
+
+    .column {
+        padding-right: 0.8125em;
+        padding-left: 0.8125em;
+    }
+
+
+
+    .intro-statement {
+        font-size: 1.4375em;
+        line-height: 1.41304348em;
+    }
+
+    .post-snippet-wrapper {
+        height: 18em;
+    }
+}
+
+  @media (max-width: 767px) {
+    .wrapper {
+        width: 38em;
+    }
+
+    .header {
+        margin-bottom: 4.875em;
+    }
+
+    .footer-home {
+        bottom: 0em;
+        margin-top: 1.625em;
+    }
+
+    .inner-page-navigation {
+        margin-bottom: 1.625em;
+    }
+
+    .inner-page-footer.main-content-area {
+        margin-top: 3.25em;
+    }
+
+    .project-description {
+        margin-bottom: 3.25em;
+    }
+
+    .resume-link {
+        display: inline-block;
+        margin-bottom: 3.25em;
+    }
+}
+
+  @media (max-width: 479px) {
+    .wrapper {
+        width: 23em;
+    }
+
+    .header-right {
+        text-align: left;
+    }
+
+    .header-link {
+        display: inline-block;
+        margin-top: 0.8125em;
+        margin-left: 0em;
+    }
+}
