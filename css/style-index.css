@@ -52,15 +52,15 @@ h1{
 a{
     color: #fff;
 }
-
+/*---main---*/
 
 .wrapper{
   margin: 0px auto;
   padding-right:400px;
   padding-left: 400px;
-  max-width: 100%;
   display: block;
 }
+
 .header {
     margin-bottom: 5.1em;
     padding-top: 3.25em;
@@ -70,12 +70,20 @@ link.icon-title{
     width: 128px;
 }
 .column-logo{
+    display: block;
     font-size: 150%;
+    max-width: 100%;
 }
-.header-right { 
+.column-email{
+    display: block;
     text-align: right;
+    max-width: 100%;
 }
 
+
+.main-content-area{
+    display: block;
+}
 
 .content-container {
     max-width: 100%;
@@ -113,7 +121,8 @@ link.icon-title{
 }
 .column-right img{
    border-radius: 10px;
-   width: 100%;
+   max-width: 100%;
+   height: auto;
    text-align: center;
 }
 .navigation-container{
@@ -121,6 +130,7 @@ link.icon-title{
     max-height: 220px;
     width: 50%;
     padding-top: 25%;
+    display: block;
 }
 .nav{
  padding-left: 0;
@@ -158,4 +168,8 @@ li:hover{
     text-decoration: underline;
     transition-duration: 1s;
 }
-
+@media screen and (max-width: 1000px) {
+    .wrapper {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
