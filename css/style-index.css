@@ -37,9 +37,9 @@ html{
     -webkit-text-size-adjust: 100%;
 }
 
+
 body{
     font-family: Roboto, sans-serif;
-    display: block;
     background-color: #171717;
     color: #fff;
 }
@@ -59,6 +59,7 @@ a{
   padding-right:400px;
   padding-left: 400px;
   max-width: 100%;
+  display: block;
 }
 .header {
     margin-bottom: 5.1em;
@@ -113,6 +114,7 @@ link.icon-title{
 .column-right img{
    border-radius: 10px;
    width: 100%;
+   text-align: center;
 }
 .navigation-container{
     position: relative;
@@ -149,3 +151,11 @@ i{
 i:hover{
     color:white;
 }
+li{
+    text-decoration: none;
+}
+li:hover{
+    text-decoration: underline;
+    transition-duration: 1s;
+}
+
