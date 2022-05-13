@@ -629,9 +629,3 @@ html {
     }
   }
   
-  @font-face {
-    font-family: 'Socicon';
-    src: url('../56f8a06acf3bbef45412e06f_socicon.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-  }
