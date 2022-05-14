@@ -123,14 +123,31 @@ html {
     color: #333
   }
   
-  img {
+  .w-block {
+    display: block
+  }
+  
+  .w-inline-block {
     max-width: 100%;
-    vertical-align: middle;
     display: inline-block
   }
   
-  .w-block {
-    display: block
+  .w-clearfix:before,
+  .w-clearfix:after {
+    content: " ";
+    display: table
+  }
+  
+  .w-clearfix:after {
+    clear: both
+  }
+  
+  .w-preserve-3d {
+    transform-style: preserve-3d
+  }
+  
+  .w-hidden {
+    display: none
   }
   
   
@@ -200,15 +217,96 @@ html {
     padding-left: 40px
   }
   
-  
-  
-  
   .w-container {
     margin-left: auto;
     margin-right: auto;
     max-width: 940px
   }
   
+  .w-clearfix:before,
+  .w-clearfix:after {
+    content: " ";
+    display: table
+  }
+  
+  .w-clearfix:after {
+    clear: both
+  }
+
+  .call-to-action {
+    margin-top: 9.75em;
+  }
+  
+  .call-to-action-heading {
+    margin-bottom: 0.8125em;
+  }
+  
+  .post-snippet-thumbnail {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-position: 0px 0px;
+    background-size: cover;
+    opacity: 0.7;
+  }
+  
+  .project-snippet-heading {
+    display: inline-block;
+    margin-bottom: 0em;
+    font-weight: 400;
+  }
+  
+  .project-snippet-hyphen {
+    display: inline-block;
+    padding-right: 0.40625em;
+    padding-left: 0.40625em;
+  }
+  
+  .project-snippet-category {
+    display: inline-block;
+    font-style: italic;
+  }
+  
+  .project-snippet {
+    margin-bottom: 1.625em;
+    -webkit-perspective-origin: 0% 100%;
+    perspective-origin: 0% 100%;
+  }
+
+  .project-body figure {
+    display: inline-block;
+    margin-right: 0px;
+    margin-bottom: 1.625em;
+    float: left;
+    clear: none;
+  }
+  
+  .project-link {
+    display: block;
+    margin-bottom: 1.625em;
+  }
+  
+  .project-snippet-link {
+    -webkit-transition: opacity 300ms ease, -webkit-transform 300ms ease;
+    transition: opacity 300ms ease, -webkit-transform 300ms ease;
+    transition: transform 300ms ease, opacity 300ms ease;
+    transition: transform 300ms ease, opacity 300ms ease, -webkit-transform 300ms ease;
+  }
+  
+  .project-snippet-link:hover {
+    opacity: 0.9;
+    -webkit-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    transform: scale(0.98);
+  }
+  
+  .post-snippet-link {
+    display: block;
+  }
+
   .w-container:before,
   .w-container:after {
     content: " ";
@@ -492,7 +590,7 @@ html {
     background-color: transparent;
   }
   
-  .hero-image {
+  .project-snippet-image {
     margin-bottom: 0em;
     border-radius: 10px;
   }
