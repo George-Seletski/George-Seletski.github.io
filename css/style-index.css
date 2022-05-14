@@ -36,8 +36,6 @@ html {
     outline: 0
   }
   
-  
-  
   b,
   strong {
     font-weight: bold
@@ -48,15 +46,9 @@ html {
     margin: .67em 0
   }
   
-  
   small {
     font-size: 80%
   }
-  
-  
-  
-  
-  
   
   img {
     border: 0
@@ -549,14 +541,27 @@ html {
     overflow: visible;
     float: none;
   }
-  
-  
-  
-  
-  
-  
-  
-  
+
+.inner-page-footer {
+    margin-top: 9.75em;
+    margin-bottom: 0em;
+    padding-bottom: 4.875em;
+}
+
+.footer-home {
+  bottom: 0em;
+  margin-top: 1.625em;
+}
+
+.inner-page-navigation {
+  margin-bottom: 1.625em;
+}
+
+.inner-page-footer.main-content-area {
+  margin-top: 3.25em;
+}
+
+
   @media (max-width: 991px) {
     .background-dark {
       font-size: 87.5%;
@@ -629,3 +634,8 @@ html {
     }
   }
   
+  @media (prefers-color-scheme: dark){
+    body{
+      background-color: var(--color-light);
+    }
+  }
