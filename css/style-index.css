@@ -504,6 +504,13 @@ img {
   margin-bottom: 0em;
 }
 
+.social-contacts-item:hover{
+  opacity: 0.9;
+  -webkit-transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  transform: scale(0.98);
+}
+
 .social-network-link {
   opacity: 0.5;
   -webkit-transition: opacity 200ms ease;
@@ -513,10 +520,6 @@ img {
   font-size: 10px;
 }
 
-.social-network-link:hover {
-  opacity: 1;
-  color:white;
-}
 
 .navigation-link {
   display: block;
