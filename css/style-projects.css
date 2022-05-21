@@ -742,5 +742,10 @@ html {
       margin-top: 0.812em;
       margin-left: 0em;
     }
+    
+    .logo{
+      max-height: 10em;
+      margin-bottom: 1.5em;
+    }
   }
   

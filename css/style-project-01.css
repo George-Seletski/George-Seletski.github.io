@@ -592,10 +592,8 @@ html {
       margin-left: 0em;
     }
     
-  }
-  
-  @media (prefers-color-scheme: dark){
-    body{
-      background-color: var(--color-light);
+    .logo{
+      max-height: 10em;
+      margin-bottom: 1.5em;
     }
   }
