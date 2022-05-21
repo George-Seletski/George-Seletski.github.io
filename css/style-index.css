@@ -415,7 +415,7 @@ html {
   
   .logo{
     display: inline-block;
-    max-height: 1.2em;
+    max-height: 1.5em;
     margin-bottom: 0em;
     text-decoration: none;
   }
@@ -636,7 +636,11 @@ html {
       display: inline-block;
       margin-top: 0.8125em;
       margin-left: 0em;
+    }
 
+    .logo{
+      max-height: 10em;
+      margin-bottom: 1.5em;
     }
   }
   
