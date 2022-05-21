@@ -53,15 +53,7 @@ html {
     font-size: 80%
   }
   
-  
-  
-  
-  
-  
-  img {
-    border: 0
-  }
-  
+
   svg:not(:root) {
     overflow: hidden
   }
@@ -126,7 +118,10 @@ html {
   img {
     max-width: 100%;
     vertical-align: middle;
-    display: inline-block
+    display: inline-block;
+    margin-bottom: 1.625em;
+    border-radius: 10px;
+    border: 0px;
   }
   
   .w-block {
@@ -425,6 +420,14 @@ html {
     padding-left: 0px;
   }
   
+  .logo{
+    display: inline-block;
+    max-height: 1.5em;
+    margin-bottom: 0em;
+    text-decoration: none;
+  }
+
+
   .logo-link{
       text-decoration: none;
   }
@@ -433,12 +436,7 @@ html {
     margin-bottom: 1.625em;
     text-decoration: none;
   }
-  
-  img {
-    display: inline-block;
-    max-width: 100%;
-    margin-bottom: 1.625em;
-  }
+
   
   
   
@@ -465,6 +463,7 @@ html {
   
   .header-right {
     text-align: right;
+    margin-top: 0.8em;
   }
   
   .header-link {

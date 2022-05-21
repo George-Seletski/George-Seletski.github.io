@@ -53,15 +53,6 @@ html {
     font-size: 80%
   }
   
-  
-  
-  
-  
-  
-  img {
-    border: 0
-  }
-  
   svg:not(:root) {
     overflow: hidden
   }
@@ -124,18 +115,18 @@ html {
   }
   
   .w-block {
-    display: block
+    display: block;
   }
   
   .w-inline-block {
     max-width: 100%;
-    display: inline-block
+    display: inline-block;
   }
   
   .w-clearfix:before,
   .w-clearfix:after {
     content: " ";
-    display: table
+    display: table;
   }
   
   .w-clearfix:after {
@@ -143,11 +134,11 @@ html {
   }
   
   .w-preserve-3d {
-    transform-style: preserve-3d
+    transform-style: preserve-3d;
   }
   
   .w-hidden {
-    display: none
+    display: none;
   }
   
   
@@ -161,37 +152,37 @@ html {
   h5,
   h6 {
     font-weight: bold;
-    margin-bottom: 10px
+    margin-bottom: 10px;
   }
   
   h1 {
     font-size: 38px;
     line-height: 44px;
-    margin-top: 20px
+    margin-top: 20px;
   }
   
   h2 {
     font-size: 32px;
     line-height: 36px;
-    margin-top: 20px
+    margin-top: 20px;
   }
   
   h3 {
     font-size: 24px;
     line-height: 30px;
-    margin-top: 20px
+    margin-top: 20px;
   }
   
   h4 {
     font-size: 18px;
     line-height: 24px;
-    margin-top: 10px
+    margin-top: 10px;
   }
   
   h5 {
     font-size: 14px;
     line-height: 20px;
-    margin-top: 10px
+    margin-top: 10px;
   }
   
   h6 {
@@ -202,11 +193,11 @@ html {
   
   p {
     margin-top: 0;
-    margin-bottom: 10px
+    margin-bottom: 10px;
   }
   
   a:focus {
-    outline: 0
+    outline: 0;
   }
   
   
@@ -220,17 +211,17 @@ html {
   .w-container {
     margin-left: auto;
     margin-right: auto;
-    max-width: 940px
+    max-width: 940px;
   }
   
   .w-clearfix:before,
   .w-clearfix:after {
     content: " ";
-    display: table
+    display: table;
   }
   
   .w-clearfix:after {
-    clear: both
+    clear: both;
   }
 
   .call-to-action {
@@ -522,6 +513,14 @@ html {
     margin-bottom: 1.625em;
     padding-left: 0px;
   }
+
+  .logo{
+    display: inline-block;
+    max-height: 1.5em;
+    margin-bottom: 0em;
+    text-decoration: none;
+  }
+
   
   .logo-link{
       text-decoration: none;
@@ -531,11 +530,14 @@ html {
     margin-bottom: 1.625em;
     text-decoration: none;
   }
-  
+
   img {
-    display: inline-block;
     max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
     margin-bottom: 1.625em;
+    border-radius: 10px;
+    border: 0px;
   }
   
   
@@ -563,6 +565,7 @@ html {
   
   .header-right {
     text-align: right;
+    margin-top: 0.8em;
   }
   
   .header-link {
@@ -736,7 +739,7 @@ html {
   
     .header-link {
       display: inline-block;
-      margin-top: 0.8125em;
+      margin-top: 0.812em;
       margin-left: 0em;
     }
   }

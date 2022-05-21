@@ -359,12 +359,14 @@ html {
   
   .header-right {
     text-align: right;
+    margin-top: 0.8em;
   }
   
   .header-link {
     margin-left: 1.625em;
     color: #fff;
     text-decoration: none;
+ 
   }
   
   .header {
