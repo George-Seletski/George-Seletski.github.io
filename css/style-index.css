@@ -126,7 +126,11 @@ html {
   }
   
   
-  
+  .icon{
+    margin-top: 1.3em;
+    width: 10%;
+    height: auto;
+  }
   
   
   h1,
