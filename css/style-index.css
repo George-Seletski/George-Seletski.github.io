@@ -33,12 +33,12 @@ html {
   
   a:active,
   a:hover {
-    outline: 0
+    outline: 0;
   }
   
   b,
   strong {
-    font-weight: bold
+    font-weight: bold;
   }
   
   h1 {
@@ -47,50 +47,13 @@ html {
   }
   
   small {
-    font-size: 80%
+    font-size: 80%;
   }
   
   
   svg:not(:root) {
     overflow: hidden
   }
-  
-  figure {
-    margin: 1em 40px
-  }
-  
-  hr {
-    box-sizing: content-box;
-    height: 0
-  }
-  
-  pre {
-    overflow: auto
-  }
-  
-  code,
-  kbd,
-  pre,
-  samp {
-    font-family: monospace, monospace;
-    font-size: 1em
-  }
-  
-  button,
-  input,
-  optgroup,
-  select,
-  textarea {
-    color: inherit;
-    font: inherit;
-    margin: 0
-  }
-  
-  button {
-    overflow: visible
-  }
-  
-  
   
   * {
     -webkit-box-sizing: border-box;
@@ -190,16 +153,12 @@ html {
     outline: 0
   }
   
-  
   ul,
   ol {
     margin-top: 0;
     margin-bottom: 10px;
-    padding-left: 40px
+    padding-left: 40px;
   }
-  
-  
-  
   
   .w-container {
     margin-left: auto;
