@@ -524,9 +524,12 @@ li {
   font-size: 10px;
 }
 
-.social-network-link:hover {
-  opacity: 1;
-  color:white;
+
+.social-contacts-item:hover{
+  opacity: 0.9;
+  -webkit-transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  transform: scale(0.98);
 }
 
 .navigation-link {
@@ -571,6 +574,9 @@ margin-bottom: 1.625em;
 .inner-page-footer.main-content-area {
 margin-top: 0.25em;
 }
+
+
+
 
 
 @media (max-width: 991px) {
