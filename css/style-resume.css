@@ -545,6 +545,20 @@ html {
     font-size: 16px;
     border-radius: 0.1%;
   }
+  .info-list{
+    padding-left: 6.5em;
+  }
+  .highlighted{
+    font-weight: 500;
+  }
+  .info-contact{
+    list-style: none;
+    margin-left: 1.6em;
+  }
+  .info-contact>li{
+    line-height: 0.5em;
+    
+  }
 
   .social-contacts-item:hover{
     opacity: 0.9;
@@ -618,6 +632,11 @@ html {
     .post-snippet-wrapper {
       height: 18em;
     }
+
+    .info-list{
+      padding-left: 3.5em;
+    }
+
   }
   
   @media (max-width: 767px) {
@@ -650,6 +669,13 @@ html {
       display: inline-block;
       margin-bottom: 3.25em;
     }
+    .info-list{
+      margin-right: 0;
+    }
+    .info-contact{
+      list-style: none;
+      margin-left: 0em;
+    }
   }
   
   @media (max-width: 479px) {
@@ -669,6 +695,13 @@ html {
     .logo{
       max-height: 10em;
       margin-bottom: 1.5em;
+    }
+    .info-list{
+      margin-right: 0;
+    }
+    .info-contact{
+      list-style: none;
+      margin-left: 0em;
     }
   }
   
