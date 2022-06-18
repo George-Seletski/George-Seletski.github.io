@@ -546,7 +546,7 @@ html {
     border-radius: 0.1%;
   }
   .info-list{
-    padding-left: 6.5em;
+    padding-left: 5.8em;
   }
   .highlighted{
     font-weight: 500;
@@ -634,7 +634,7 @@ html {
     }
 
     .info-list{
-      padding-left: 3.5em;
+      padding-left: 3em;
     }
 
   }
@@ -669,9 +669,7 @@ html {
       display: inline-block;
       margin-bottom: 3.25em;
     }
-    .info-list{
-      margin-right: 0;
-    }
+
     .info-contact{
       list-style: none;
       margin-left: 0em;
@@ -696,12 +694,14 @@ html {
       max-height: 10em;
       margin-bottom: 1.5em;
     }
+
     .info-list{
-      margin-right: 0;
+      padding-left: 0.7em;
     }
     .info-contact{
       list-style: none;
       margin-left: 0em;
     }
+    
   }
   
