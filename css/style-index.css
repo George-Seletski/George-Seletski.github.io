@@ -381,10 +381,6 @@ ol {
   .w-col {
     width: 100%
   }
-
-
-
- 
 }
 
 body {
@@ -574,10 +570,6 @@ margin-bottom: 1.625em;
 .inner-page-footer.main-content-area {
 margin-top: 0.25em;
 }
-
-
-
-
 
 @media (max-width: 991px) {
   .background-dark {
