@@ -601,6 +601,16 @@ html {
     margin-bottom: 9.75em;
   }
   
+  .icon{
+    margin-top: 1.1em;
+    width: 26.36%;
+    height: 33px;
+    width: 33px;
+    font-size: 16px;
+    border-radius: 0.1%;
+    padding-bottom: 1px;
+  }
+
   .social-networks {
     display: inline-block;
     margin-bottom: 0em;
