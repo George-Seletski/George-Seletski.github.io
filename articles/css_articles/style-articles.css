@@ -328,7 +328,14 @@ html {
     margin-bottom: 1.625em;
     padding-left: 0px;
   }
-  
+  blockquote {
+    margin: 0 0 20px 0;
+    padding: 10px 20px;
+    border-left: 5px solid #E2E2E2;
+    font-size: 18px;
+    line-height: 22px
+  }
+
   .logo-link{
       text-decoration: none;
   }
@@ -475,32 +482,6 @@ html {
     text-decoration: none;
   }
 
-.project-title {
-    margin-bottom: 1.13043478em;
-    font-size: 1.4375em;
-    line-height: 1.69565217em;
-  }
-  
-  .project-description {
-    margin-bottom: 4.875em;
-  }
-  
-  .project-description-paragraph {
-    opacity: 0.8;
-  }
-  
-  .project-body {
-    margin-bottom: 6.625em;
-  }
-  
-  .project-body figure {
-    display: inline-block;
-    margin-right: 0px;
-    margin-bottom: 1.625em;
-   
-    clear: none;
-  }
-
   .w-richtext figure.w-richtext-align-fullwidth {
     width: 100%;
     max-width: 100%;
@@ -532,6 +513,35 @@ html {
     margin-top: 5.75em;
 }
 
+.post-date {
+  opacity: 0.5;
+}
+.post-title {
+  margin-bottom: 2.4375em;
+}
+
+.post-body {
+  margin-bottom: 3.25em;
+}
+
+.post-body p {
+  opacity: 0.8;
+}
+
+
+.post-body figure {
+  margin-top: 3.25em;
+  margin-bottom: 1.625em;
+}
+
+.post-body h4 {
+  margin-top: 3.25em;
+}
+
+.post-body li {
+  opacity: 0.8;
+}
+
   @media (max-width: 991px) {
     .background-dark {
       font-size: 87.5%;
@@ -551,9 +561,7 @@ html {
       line-height: 1.41304348em;
     }
   
-    .post-snippet-wrapper {
-      height: 18em;
-    }
+  
   }
   
   @media (max-width: 767px) {
@@ -576,15 +584,6 @@ html {
   
     .inner-page-footer.main-content-area {
       margin-top: 3.25em;
-    }
-  
-    .project-description {
-      margin-bottom: 3.25em;
-    }
-  
-    .resume-link {
-      display: inline-block;
-      margin-bottom: 3.25em;
     }
     
   }
