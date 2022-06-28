@@ -76,7 +76,7 @@ html {
   }
   
   img {
-    max-width: 100%;
+    max-width: 500px;
     vertical-align: middle;
     display: inline-block;
     margin-bottom: 1.625em;
