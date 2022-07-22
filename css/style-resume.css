@@ -500,6 +500,8 @@ html {
 
 .resume-experience-item{
   margin-bottom: 3.875em;
+  border-left: solid #fff 2px;
+  padding-left: 10px;
 }
 
 .w-list-unstyled {
