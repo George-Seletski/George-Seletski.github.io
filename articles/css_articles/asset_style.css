@@ -14,7 +14,7 @@ html {
 .backgroundImage {
     left: 0px;
     top: 0px;
-    background-image: url("/George-Seletski.github.io/img/assets/adrien-olichon-ohoaDhAObEA-unsplash.jpg");
+    background-image: url("../img/assets/adrien-olichon-ohoaDhAObEA-unsplash.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
