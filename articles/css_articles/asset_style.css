@@ -11,7 +11,7 @@ html {
 
 
 
-.backgroundImage {
+.background-image {
     left: 0px;
     top: 0px;
     /*background-image: url("../articles_cover/56f8e0fac505ae330856804a_blog-7.jpg");*/
@@ -23,7 +23,7 @@ html {
 
 }
 
-.transparentText {
+.transparent-text {
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
     border: 3px solid #f1f1f1;
