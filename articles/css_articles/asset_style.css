@@ -15,7 +15,6 @@ html {
     left: 0px;
     top: 0px;
     /*background-image: url("/George-Seletski.github.io/articles/articles_cover/");*/
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(128, 121, 121, 0.19);
     background-color: #171717;
     height: 100%;
     background-position: center;
@@ -27,7 +26,7 @@ html {
 .transparent-text {
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
-    border: 3px solid #f1f1f1;
+    /*border: 3px solid #f1f1f1;*/
     position: absolute;
     top: 40%;
     left: 25%;
