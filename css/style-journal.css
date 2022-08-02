@@ -720,13 +720,11 @@ html {
     float: none;
   }
   
-
-  
-  .inner-page-footer {
-    margin-top: 9.75em;
-    margin-bottom: 0em;
-    padding-bottom: 4.875em;
-  }
+.inner-page-footer {
+  margin-top: 9.75em;
+  margin-bottom: 0em;
+  padding-bottom: 1.875em;
+}
   
   .post-snippet-wrapper {
     position: relative;
