@@ -515,17 +515,22 @@ margin-top: 3.25em;
 
 .post-date {
   opacity: 0.5;
-  margin-left: 15px;
   margin-top: 1px;
 }
 .post-badge{
   max-width:fit-content;
   background-color: dimgrey;
   border-radius: 5px;
- font-size: 1.05em;
- font-weight: bold;
+      margin-right: 1.5em;
+}
+
+.badge-title{
+  font-size: 1.05em;
+    font-weight: bold;
+    padding: 10px;
 
 }
+
 .post-title {
   margin-bottom: 2.4375em;
 }
