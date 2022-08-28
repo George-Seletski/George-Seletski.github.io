@@ -25,6 +25,24 @@ html {
     display: block
   }
   
+.light {
+  --font-color: #171717;
+  --bg-color: #fff;
+}
+
+.dark {
+    background-color: #171717;
+      color: #fff;
+}
+
+p,
+h1 {
+  color: var(--font-color);
+}
+
+body {
+  background-color: var(--bg-color);
+}
   
   a {
     background-color: transparent;
@@ -370,7 +388,7 @@ html {
   }
   
   a {
-    color: #fff;
+    color: var(--font-color);
     text-decoration: underline;
   }
   
@@ -427,7 +445,7 @@ html {
   
   .header-link {
     margin-left: 1.625em;
-    color: #fff;
+    color: var(--font-color);
     text-decoration: none;
 
    
@@ -487,7 +505,7 @@ html {
   
   .social-network-link:hover {
     opacity: 1;
-    color:white;
+    color: var(--font-color);
   }
   
   .navigation-link {
@@ -499,12 +517,12 @@ html {
     transition: -webkit-transform 200ms ease;
     transition: transform 200ms ease;
     transition: transform 200ms ease, -webkit-transform 200ms ease;
-    color: #fff;
+    color: var(--font-color);
     text-decoration: underline;
   }
   
   .navigation-link.w--current {
-    color: #fff;
+    color: var(--font-color);
     font-style: italic;
     font-weight: 500;
   }
