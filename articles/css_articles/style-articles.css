@@ -22,6 +22,9 @@ summary {
   display: block
 }
 
+figcaption{
+  text-align: center;
+}
 
 a {
   background-color: transparent;
@@ -482,15 +485,17 @@ li {
   text-decoration: none;
 }
 
-.w-richtext figure.w-richtext-align-fullwidth {
+.w-richtext figure, .w-richtext-align-fullwidth {
   width: 100%;
   max-width: 100%;
   text-align: center;
   clear: both;
   display: block;
   margin-right: auto;
-  margin-left: auto
+  margin-left: auto;
 }
+
+
 
 .footer-home {
 bottom: 0em;

@@ -415,13 +415,6 @@ body {
   }
   
   
-  
-  
-  .background-dark {
-    background-color: #171717;
-    color: #fff;
-  }
-  
   .container {
     display: block;
     width: 1170px;
@@ -553,7 +546,7 @@ body {
 
 
   @media (max-width: 991px) {
-    .background-dark {
+    .dark {
       font-size: 87.5%;
     }
   
