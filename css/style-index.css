@@ -2,13 +2,12 @@
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
   }
   
   body {
-    margin: 0
+    margin: 0;
   }
-  
   article,
   aside,
   details,
@@ -83,16 +82,6 @@ body {
     height: 100%
   }
   
-  body {
-    margin: 0;
-    min-height: 100%;
-    background-color: #fff;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    color: #333
-  }
-  
   img {
     max-width: 100%;
     vertical-align: middle;
@@ -100,6 +89,7 @@ body {
     margin-bottom: 1.625em;
     border-radius: 10px;
     border: 0px;
+
   }
   
   .w-block {
@@ -360,7 +350,9 @@ body {
     .w-col {
       width: 100%
     }
-  
+  img{
+        width: 100%;
+  }
   
   
    
@@ -414,6 +406,13 @@ body {
     text-decoration: none;
   }
   
+  
+  
+  
+  /* .background-dark {
+    background-color: #171717;
+    color: #fff;
+  } */
   
   .container {
     display: block;
@@ -540,7 +539,7 @@ body {
   margin-bottom: 1.625em;
 }
 
-.inner-page-footer.main-content-area {
+.inner-page-footer, .main-content-area {
   margin-top: 0.25em;
 }
 
@@ -587,8 +586,8 @@ body {
       margin-bottom: 1.625em;
     }
   
-    .inner-page-footer.main-content-area {
-      margin-top: 3.25em;
+    .inner-page-footer, .main-content-area {
+      margin-top: 1.25em;
     }
   
     .project-description {

@@ -506,7 +506,7 @@ margin-top: 1.625em;
 margin-bottom: 1.625em;
 }
 
-.inner-page-footer.main-content-area {
+.inner-page-footer,.main-content-area {
 margin-top: 3.25em;
 }
 
