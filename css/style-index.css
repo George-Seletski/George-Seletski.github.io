@@ -432,7 +432,9 @@ li {
 }
 
 
-
+.telegram-svg{
+  height: 7.8em;
+}
 
 .background-dark {
   background-color: #171717;
