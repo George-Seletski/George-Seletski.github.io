@@ -225,7 +225,7 @@ html {
   }
 
   .call-to-action {
-    margin-top: 9.75em;
+    margin-top: 0em;
   }
   
   .call-to-action-heading {
@@ -565,9 +565,9 @@ html {
   }
   
   .header {
-    margin-bottom: 8.125em;
-    padding-top: 3.25em;
-    padding-bottom: 0em;
+    margin-bottom: 3.25em;
+      padding-top: 3.25em;
+      padding-bottom: 0em;
   }
   
   
@@ -614,7 +614,7 @@ html {
   .social-networks {
     display: inline-block;
     margin-bottom: 0em;
-    padding-left: 1.625em;
+  padding-left: 1.6em;
   }
   
   .social-contacts-item{
@@ -639,7 +639,7 @@ html {
   }
   
 .inner-page-navigation {
-    margin-bottom: 4.875em;
+        margin-bottom: 1.625em;
 }
 
   .navigation-link {
@@ -667,7 +667,7 @@ html {
   }
   
 .inner-page-footer {
-    margin-top: 9.75em;
+      margin-top: 3.75em;
     margin-bottom: 0em;
     padding-bottom: 4.875em;
 }
@@ -702,7 +702,7 @@ html {
     }
   
     .header {
-      margin-bottom: 4.875em;
+          margin-bottom: 1.875em;
     }
   
     .footer-home {

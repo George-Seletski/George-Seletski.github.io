@@ -381,7 +381,7 @@ html {
   }
   
   .header {
-    margin-bottom: 8.125em;
+    margin-bottom: 1.125em;
     padding-top: 3.25em;
     padding-bottom: 0em;
   }
@@ -423,7 +423,7 @@ html {
   .social-networks {
     display: inline-block;
     margin-bottom: 0em;
-    padding-left: 1.625em;
+      padding-left: 1.6em;
   }
   
   .social-contacts-item{
@@ -458,12 +458,15 @@ html {
     transition: transform 200ms ease, -webkit-transform 200ms ease;
     color: #fff;
     text-decoration: underline;
+    font-size: 1.05em;
+    
   }
   
   .navigation-link.w--current {
     color: #fff;
     font-style: italic;
     font-weight: 500;
+    font-size: 1.25em;
   }
   
   .navigation-menu {
@@ -472,7 +475,7 @@ html {
   }
 
 .inner-page-footer {
-  margin-top: 9.75em;
+ margin-top: 3.75em;
   margin-bottom: 0em;
   padding-bottom: 1.875em;
 }
@@ -499,7 +502,7 @@ html {
   }
   
   .project-body {
-    margin-bottom: 6.625em;
+        margin-bottom: 0.625em;
   }
   
   .project-body figure {
@@ -538,7 +541,7 @@ html {
   }
 
 .call-to-action {
-    margin-top: 5.75em;
+    margin-top: 0em;
 }
 
   @media (max-width: 991px) {
@@ -571,7 +574,7 @@ html {
     }
   
     .header {
-      margin-bottom: 4.875em;
+      margin-bottom: 1.875em;
     }
   
     .footer-home {

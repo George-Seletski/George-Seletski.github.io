@@ -628,7 +628,7 @@ html {
   }
   
   .header {
-    margin-bottom: 8.125em;
+    margin-bottom: 3.25em;
     padding-top: 3.25em;
     padding-bottom: 0em;
   }
@@ -668,7 +668,7 @@ html {
   .social-networks {
     display: inline-block;
     margin-bottom: 0em;
-    padding-left: 1.625em;
+    padding-left: 1.6em;
   }
   
   .social-contacts-item{
@@ -721,7 +721,7 @@ html {
   }
   
 .inner-page-footer {
-  margin-top: 9.75em;
+    margin-top: 3.25em;
   margin-bottom: 0em;
   padding-bottom: 1.875em;
 }
@@ -739,7 +739,7 @@ html {
     z-index: 1;
     display: inline-block;
     width: 100%;
-    padding-left: 3.25em;
+    padding-left: 2.25em;
     -webkit-transform: translate(0px, -50%);
     -ms-transform: translate(0px, -50%);
     transform: translate(0px, -50%);

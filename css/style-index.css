@@ -476,7 +476,7 @@ body {
   .social-networks {
     display: inline-block;
     margin-bottom: 0em;
-    padding-left: 1.625em;
+    padding-left: 1.6em;
   }
   
   .social-contacts-item{
@@ -525,7 +525,7 @@ body {
   }
 
 .inner-page-footer {
-    margin-top: 9.75em;
+    margin-top: 3.25em;
     margin-bottom: 0em;
     padding-bottom: 1.875em;
 }
