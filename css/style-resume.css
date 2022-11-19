@@ -252,7 +252,7 @@ html {
     width: 100%;
     min-height: 1px;
     padding-left: 10px;
-    padding-right: 10px
+    padding-right: 10px;
   }
   
   .w-col .w-col {
@@ -487,9 +487,11 @@ html {
     padding-left: 1.625em;
   }
   
-  .header-right {
-    text-align: right;
-  }
+.header-left {
+text-align: left;
+  margin-top: 0.8em;
+
+}
   
   .header-link {
     margin-left: 1.625em;
@@ -556,6 +558,7 @@ html {
   }
   .info-list{
     padding-left: 4.8em;
+    margin-top: 10px;
   }
   .highlighted{
     font-weight: 500;
