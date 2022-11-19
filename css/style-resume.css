@@ -192,7 +192,12 @@ html {
     outline: 0
   }
   
-  
+  .skills{
+    margin-bottom: 0px;
+  }
+.title-job{
+  text-decoration: underline;
+}
   ul,
   ol {
     margin-top: 0;
@@ -200,7 +205,9 @@ html {
     padding-left: 40px
   }
   
-  
+  .skills-h2{
+    margin-top: 0;
+  }
   
   
   .w-container {
@@ -310,7 +317,7 @@ html {
   }
   
   .biography-paragraph {
-    margin-bottom: 4.875em;
+    margin-bottom: 2.875em;
   }
   .experience-role {
     font-style: italic;
@@ -515,7 +522,7 @@ html {
   }
   
 .resume-experience {
-    margin-bottom: 4.875em;
+    margin-bottom: 3.875em;
 }
 .w-list-unstyled {
     padding-left: 0;
