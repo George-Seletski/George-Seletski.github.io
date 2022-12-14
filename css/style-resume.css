@@ -316,28 +316,28 @@ ol {
 
 @media screen and (max-width:991px) {
     .w-container {
-        max-width: 728px
+        max-width: 728px;
     }
     .w-hidden-main {
-        display: inherit !important
+        display: inherit !important;
     }
     .w-hidden-medium {
-        display: none !important
+        display: none !important;
     }
     .w-col-medium-1 {
-        width: 8.33333333%
+        width: 8.33333333%;
     }
     .w-col-medium-2 {
-        width: 16.66666667%
+        width: 16.66666667%;
     }
     .w-col-medium-3 {
-        width: 25%
+        width: 25%;
     }
     .w-col-medium-4 {
-        width: 33.33333333%
+        width: 33.33333333%;
     }
     .w-col-medium-6 {
-        width: 50%
+        width: 50%;
     }
 }
 
