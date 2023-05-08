@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -562,4 +563,14 @@ li {
         max-height: 10em;
         margin-bottom: 1.5em;
     }*/
+}
+
+.bold {
+    font-size: larger;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-family: 'La Belle Aurore', cursive;
+    font-weight: 900;
+    font-style: oblique;
+    padding-left: 5px;
+    padding-right: 5px;
 }
