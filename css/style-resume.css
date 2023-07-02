@@ -509,6 +509,23 @@ li {
     color: white;
 }
 
+.copyright-list {
+    display: inline-block;
+    margin-bottom: 0em !important;
+    padding-left: 1.625em;
+}
+
+.copyright-list>a {
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.copyright-list>a:hover {
+    cursor: pointer;
+}
+
 .inner-page-navigation {
     margin-bottom: 4.875em;
 }
@@ -538,7 +555,7 @@ li {
 }
 
 .inner-page-footer {
-    margin-top: 9.75em;
+    margin-top: 1.75em;
     margin-bottom: 0em;
     padding-bottom: 4.875em;
 }
