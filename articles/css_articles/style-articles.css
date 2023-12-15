@@ -79,7 +79,7 @@ img {
     vertical-align: middle;
     display: inline-block;
     margin-bottom: 1.625em;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 0px;
     height: 25em;
 }
@@ -167,8 +167,8 @@ ol {
     float: left;
     width: 100%;
     min-height: 1px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 
 .w-col .w-col {
