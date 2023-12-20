@@ -74,7 +74,8 @@ body {
     color: #333
 }
 
-img {
+
+/*img {
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;
@@ -82,6 +83,15 @@ img {
     border-radius: 5px;
     border: 0px;
     height: 25em;
+}*/
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 0;
 }
 
 
