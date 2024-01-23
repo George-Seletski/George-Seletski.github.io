@@ -586,11 +586,9 @@ li {
 }
 
 .bold {
-    font-size: larger;
+    font-size: 140%;
     /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
-    font-family: 'La Belle Aurore', cursive !important;
-    font-weight: 900;
-    font-style: oblique;
+    font-family: 'Literata-Variable';
     padding-left: 5px;
     padding-right: 5px;
 }
