@@ -291,6 +291,19 @@ ol {
     animation-fill-mode: backwards;
 }
 
+.copyright-list {
+    display: inline-block;
+    margin-bottom: 0em !important;
+    padding-left: 1.625em;
+}
+
+.copyright-list>a {
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .animate.fade {
     animation-name: animate-fade;
     animation-timing-function: ease;
