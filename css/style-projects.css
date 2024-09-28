@@ -308,7 +308,7 @@ ol {
 .animate.blur {
     animation-name: animate-blur;
     animation-timing-function: ease;
-    animation-duration: 3s;
+    animation-duration: 1s;
 }
 
 @keyframes animate-blur {
