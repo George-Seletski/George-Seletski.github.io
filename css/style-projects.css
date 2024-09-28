@@ -213,7 +213,7 @@ ol {
 }
 
 .call-to-action {
-    margin-top: 9.75em;
+    margin-top: 3.75em;
 }
 
 .call-to-action-heading {
@@ -756,5 +756,14 @@ img {
         display: inline-block;
         margin-top: 0.812em;
         margin-left: 0em;
+    }
+    h4 {
+        font-size: 14px;
+    }
+    .background-dark {
+        font-size: 100%;
+    }
+    .project-snippet-category {
+        font-size: 15px;
     }
 }
