@@ -407,6 +407,29 @@ li {
     color: #fff;
 }
 
+.animate {
+    animation-duration: 0.75s;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-name: animate-fade;
+    animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+    animation-fill-mode: backwards;
+}
+
+.animate.fade {
+    animation-name: animate-fade;
+    animation-timing-function: ease;
+}
+
+@keyframes animate-fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .container {
     display: block;
     width: 1170px;
