@@ -5,7 +5,16 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 0;
+    height: 100vh;
+    min-height: 100vh !important;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 100%;
+    line-height: 1.625em;
+    color: #333;
 }
 
 article,
@@ -93,16 +102,6 @@ svg:not(:root) {
 
 html {
     height: 100%
-}
-
-body {
-    margin: 0;
-    min-height: 100%;
-    background-color: #fff;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    color: #333
 }
 
 img {
@@ -478,12 +477,6 @@ ol {
     }
 }
 
-body {
-    font-family: Roboto, sans-serif;
-    color: #333;
-    font-size: 100%;
-    line-height: 1.625em;
-}
 
 h1 {
     margin-top: 0px;
